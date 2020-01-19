@@ -1,44 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Shawarma utils
 
-### `npm start`
+Este proyecto permite construir una aplicación de escritorio usando Electron y React. La app dispone de varias funcionalidades que permiten el formateo de json, encoding de texto a base64, en otras cosas.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Setup
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Ver [aqui](/docs/create_react_app.md) para setup del proyecto.
 
-### `npm test`
+### Instalación Desktop App
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Existen 3 formas de usar la app, según sean sus conocimientos, tiempo disponible, conocimientos y nivel de confianza:
 
-### `npm run build`
+1. **"Do it yourself"**: Clonar el proyecto y ejecutar `npm run build`, en la carpeta `/dist` se creara un archivo binario llamado `shawarma-utils-${version}`, que puede ser ejecutado directamente, y un instalador según su sitema operativo, en el caso de Mac construirá un instalador `.dmg`.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **"~~I'm lazy~~ I trust in elegardo"**: Puede dirigirse a la sección 'release' del proyecto de GitHub y bajar la última versión del binario o instalador construido. (*)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+3. __"~~I'm don't f***ing understanding anything~~ I don't want to install anything"__: No se preocupe, este proyecto tambien tiene una version web y esta desplegado en [GitHub Pages](https://elegardo.github.io/shawarma-utils/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+(*) Si usted esta leyendo esto es porque confia en mi, gracias por eso, pero Mac OS no es tan confiado como usted, al intentar ejecutar el binario, o ejecutar la app después de haberla instalado con el archivo `.dmg`, Mac OS dira que no puede ejecutar la aplicación porque desconoce al desarrollador, usted puede seguir [estas](https://support.apple.com/es-cl/guide/mac-help/mh40616/mac) instrucciones y crear una excepción de seguridad que le permita ejecutar la aplicación sin problemas.

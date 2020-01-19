@@ -2,6 +2,7 @@
   "name": "shawarma-utils",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://elegardo.github.io/shawarma-utils",
   "description": "Utilities for format json, encode, decode",
   "author": "@elegardo",
   "build": {
@@ -11,7 +12,6 @@
     "category": "public.app-category.utilities"
   },
   "main": "public/electron.js",
-  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -27,6 +27,7 @@
     "concurrently": "^5.0.2",
     "cross-env": "^6.0.3",
     "electron-is-dev": "^1.1.0",
+    "gh-pages": "^2.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-json-tree": "^0.11.2",
@@ -47,7 +48,8 @@
     "build": "yarn react-build && yarn electron-build",
     "start": "concurrently \"cross-env BROWSER=none yarn react-start\" \"wait-on http://localhost:3000 && electron .\"",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run react-build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
