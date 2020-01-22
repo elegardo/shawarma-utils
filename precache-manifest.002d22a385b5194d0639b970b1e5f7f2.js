@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5a9fd75cc2b66d15f361e92c20d8c653",
+    "revision": "6748a443ee8068c27c43a6723deee06b",
     "url": "/shawarma-utils/index.html"
   },
   {
