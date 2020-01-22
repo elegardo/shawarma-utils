@@ -12,7 +12,7 @@ Ver [aqui](/docs/create_react_app.md) para setup del proyecto.
 
 Existen 3 formas de usar la app, según sean sus conocimientos, tiempo disponible, conocimientos y nivel de confianza:
 
-1. **"Do it yourself"**: Clonar el proyecto y ejecutar `npm run build`, en la carpeta `/dist` se creara un archivo binario llamado `shawarma-utils-${version}`, que puede ser ejecutado directamente, y un instalador según su sitema operativo, en el caso de Mac construirá un instalador `.dmg`.
+1. **"Do it yourself"**: Clonar el proyecto y ejecutar `npm run build`, en la carpeta `/dist` se creara un archivo binario llamado `shawarma-utils-${version}`, que puede ser ejecutado directamente, y un instalador según su sistema operativo, en el caso de Mac construirá un instalador `.dmg`.
 
 2. **"~~I'm lazy~~ I trust in elegardo"**: Puede dirigirse a la sección 'release' del proyecto de GitHub y bajar la última versión del binario o instalador construido. (*)
 
