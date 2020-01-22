@@ -16,6 +16,8 @@ Existen 3 formas de usar la app, según sean sus conocimientos, tiempo disponibl
 
 2. **"~~I'm lazy~~ I trust in elegardo"**: Puede dirigirse a la sección 'release' del proyecto de GitHub y bajar la última versión del binario o instalador construido. (*)
 
-3. __"~~I'm don't f***ing understanding anything~~ I don't want to install anything"__: No se preocupe, este proyecto tambien tiene una version web y esta desplegado en [GitHub Pages](https://elegardo.github.io/shawarma-utils/).
+3. **"Early adopters"**: Este proyecto tambien tiene una version web y esta desplegado en [GitHub Pages](https://elegardo.github.io/shawarma-utils/). Cualquier nueva funcionalidad estara publicada en ese link, pero si obtienes un 404 o un error no me culpes ... :innocent:
+
+4. **"I don't want to install anything"**: Si no quieres instalar una app nativa y tampoco quieres tener otra pestaña abierta en tu browser, puedes instalarla como accesso directo. Esta app es una Progressive Web App (pwa), para instalarla [sigue](https://www.genbeta.com/paso-a-paso/como-instalar-aplicaciones-web-progresivas-pwa-chrome) estas instrucciones (Chrome).
 
 (*) Si usted esta leyendo esto es porque confia en mi, gracias por eso, pero Mac OS no es tan confiado como usted, al intentar ejecutar el binario, o ejecutar la app después de haberla instalado con el archivo `.dmg`, Mac OS dira que no puede ejecutar la aplicación porque desconoce al desarrollador, usted puede seguir [estas](https://support.apple.com/es-cl/guide/mac-help/mh40616/mac) instrucciones y crear una excepción de seguridad que le permita ejecutar la aplicación sin problemas.
