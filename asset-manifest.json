@@ -1,26 +1,21 @@
 {
   "files": {
-    "main.css": "/shawarma-utils/static/css/main.d2bbce24.chunk.css",
+    "main.css": "/shawarma-utils/static/css/main.89bf7d40.chunk.css",
     "main.js": "/shawarma-utils/static/js/main.dc23cc66.chunk.js",
-    "main.js.map": "/shawarma-utils/static/js/main.dc23cc66.chunk.js.map",
     "runtime-main.js": "/shawarma-utils/static/js/runtime-main.bb3aee55.js",
-    "runtime-main.js.map": "/shawarma-utils/static/js/runtime-main.bb3aee55.js.map",
-    "static/css/2.7ac538aa.chunk.css": "/shawarma-utils/static/css/2.7ac538aa.chunk.css",
+    "static/css/2.1befe195.chunk.css": "/shawarma-utils/static/css/2.1befe195.chunk.css",
     "static/js/2.4b9beb0d.chunk.js": "/shawarma-utils/static/js/2.4b9beb0d.chunk.js",
-    "static/js/2.4b9beb0d.chunk.js.map": "/shawarma-utils/static/js/2.4b9beb0d.chunk.js.map",
     "index.html": "/shawarma-utils/index.html",
-    "precache-manifest.56f3d458791dcae890ca3d75e7a86e1e.js": "/shawarma-utils/precache-manifest.56f3d458791dcae890ca3d75e7a86e1e.js",
+    "precache-manifest.d8c1e1cca69c31760fa172bdd9a97976.js": "/shawarma-utils/precache-manifest.d8c1e1cca69c31760fa172bdd9a97976.js",
     "service-worker.js": "/shawarma-utils/service-worker.js",
-    "static/css/2.7ac538aa.chunk.css.map": "/shawarma-utils/static/css/2.7ac538aa.chunk.css.map",
-    "static/css/main.d2bbce24.chunk.css.map": "/shawarma-utils/static/css/main.d2bbce24.chunk.css.map",
     "static/js/2.4b9beb0d.chunk.js.LICENSE": "/shawarma-utils/static/js/2.4b9beb0d.chunk.js.LICENSE",
     "static/media/semantic.min.css": "/shawarma-utils/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.bb3aee55.js",
-    "static/css/2.7ac538aa.chunk.css",
+    "static/css/2.1befe195.chunk.css",
     "static/js/2.4b9beb0d.chunk.js",
-    "static/css/main.d2bbce24.chunk.css",
+    "static/css/main.89bf7d40.chunk.css",
     "static/js/main.dc23cc66.chunk.js"
   ]
 }
