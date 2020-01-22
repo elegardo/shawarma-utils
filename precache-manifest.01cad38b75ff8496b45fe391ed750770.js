@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6748a443ee8068c27c43a6723deee06b",
+    "revision": "ba7c17552c809e886060b5aae49300cd",
     "url": "/shawarma-utils/index.html"
   },
   {
-    "revision": "9f64bc2984613b5067ce",
-    "url": "/shawarma-utils/static/css/2.1befe195.chunk.css"
+    "revision": "bc30107bb2fca08cb429",
+    "url": "/shawarma-utils/static/css/2.7ac538aa.chunk.css"
   },
   {
-    "revision": "32148a4883a27206f125",
-    "url": "/shawarma-utils/static/css/main.89bf7d40.chunk.css"
+    "revision": "23b766aee9e62b4ba82b",
+    "url": "/shawarma-utils/static/css/main.d2bbce24.chunk.css"
   },
   {
-    "revision": "9f64bc2984613b5067ce",
+    "revision": "bc30107bb2fca08cb429",
     "url": "/shawarma-utils/static/js/2.4b9beb0d.chunk.js"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shawarma-utils/static/js/2.4b9beb0d.chunk.js.LICENSE"
   },
   {
-    "revision": "32148a4883a27206f125",
+    "revision": "23b766aee9e62b4ba82b",
     "url": "/shawarma-utils/static/js/main.dc23cc66.chunk.js"
   },
   {
