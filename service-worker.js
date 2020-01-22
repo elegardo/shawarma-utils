@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/shawarma-utils/precache-manifest.9c6be349041537af722a9a07600c8680.js"
+  "/shawarma-utils/precache-manifest.56f3d458791dcae890ca3d75e7a86e1e.js"
 );
 
 self.addEventListener('message', (event) => {
