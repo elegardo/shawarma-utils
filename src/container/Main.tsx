@@ -3,7 +3,6 @@ import { Container, Grid, List, TextArea, Button, Divider } from "semantic-ui-re
 import JSONTree from "react-json-tree";
 import base64 from "base-64";
 import utf8 from "utf8";
-import { CustomButton } from "./CustomButton";
 import CopyToClipboard from "react-copy-to-clipboard";
 
 const theme = {
@@ -27,6 +26,7 @@ const theme = {
 };
 
 const MainContainer = () => {
+
   const [action, setAction] = useState("");
   const [input, setInput] = useState();
   const [output, setOutput] = useState();
@@ -35,7 +35,8 @@ const MainContainer = () => {
     try {
       setOutput(JSON.parse(value));
     } catch (error) {
-      setOutput("");
+      console.error(error);
+      setOutput(error.message);
     }
   };
 
@@ -43,8 +44,8 @@ const MainContainer = () => {
     try {
       setOutput(JSON.stringify(JSON.parse(value), null, 2));
     } catch (error) {
-      console.log(error);
-      setOutput("");
+      console.error(error);
+      setOutput(error.message);
     }
   };
 
@@ -54,8 +55,8 @@ const MainContainer = () => {
       const encode = base64.encode(bytes);
       setOutput(encode);
     } catch (error) {
-      console.log(error);
-      setOutput("");
+      console.error(error);
+      setOutput(error.message);
     }
   };
 
@@ -64,13 +65,14 @@ const MainContainer = () => {
       const decode = base64.decode(value);
       buildJsonParse(decode);
     } catch (error) {
-      console.log(error);
-      setOutput("");
+      console.error(error);
+      setOutput(error.message);
     }
   };
 
   return (
     <Container>
+
       <Grid container columns="equal">
         <Grid.Column
           centered="true"
@@ -82,6 +84,7 @@ const MainContainer = () => {
           <TextArea
             rows={10}
             placeholder="Input value.."
+            spellCheck="false"
             onChange={(e, data) => {
               setInput(data.value);
             }}
@@ -91,53 +94,50 @@ const MainContainer = () => {
         <Grid.Column centered="true" mobile={16} tablet={16} computer={2}>
           <List verticalAlign="middle">
             <List.Item>
-              <CustomButton
-                action="encode"
-                onClick={e => {
-                  setAction("encode");
-                  buildEncode(input);
-                }}
-              />
+              <Button inverted color='violet' className="button" active={action === 'encode'}
+                  onClick={e => {
+                    setAction("encode");
+                    buildEncode(input);
+                  }}>
+                encode
+              </Button>
             </List.Item>
 
             <List.Item>
-              <CustomButton
-                action="decode"
-                onClick={e => {
-                  setAction("decode");
-                  buildDecode(input);
-                }}
-              />
+              <Button inverted color='violet' className="button" active={action === 'decode'}
+                  onClick={e => {
+                    setAction("decode");
+                    buildDecode(input);
+                  }}>
+                decode
+              </Button>
             </List.Item>
 
             <List.Item>
-              <CustomButton
-                action="jsonParse"
-                onClick={e => {
-                  setAction("jsonParse");
-                  buildJsonParse(input);
-                }}
-              />
+              <Button inverted color='violet' className="button" active={action === 'jsonParse'}
+                    onClick={e => {
+                      setAction("jsonParse");
+                      buildJsonParse(input);
+                    }}>
+                  jsonParse
+              </Button>
             </List.Item>
 
             <List.Item>
-              <CustomButton
-                action="jsonTree"
-                onClick={e => {
-                  setAction("jsonTree");
-                  buildJsonTree(input);
-                }}
-              />
+              <Button inverted color='violet' className="button" active={action === 'jsonTree'}
+                      onClick={e => {
+                        setAction("jsonTree");
+                        buildJsonTree(input);
+                      }}>
+                    jsonTree
+              </Button>
             </List.Item>
 
             <Divider hidden />
 
             <List.Item>
               <CopyToClipboard text={output}>
-                <Button
-                  inverted
-                  color='red'
-                  className="button">
+                <Button color='blue' className="button">
                   copy
                 </Button>
               </CopyToClipboard>
@@ -145,11 +145,10 @@ const MainContainer = () => {
           </List>
         </Grid.Column>
 
-        <Grid.Column centered="true" mobile={16} tablet={16} computer={7}>
-          <Container className="ouputColumn">
-
+        <Grid.Column className="ouputColumn" centered="true" mobile={16} tablet={16} computer={7}>
+          <Container>
+          <div>
             {action === "jsonTree" && (
-              <div>
                 <pre>
                   <JSONTree
                     hideRoot={true}
@@ -158,16 +157,14 @@ const MainContainer = () => {
                     invertTheme={true}
                   />
                 </pre>
-              </div>
             )}
 
             {(action === "jsonParse" ||
               action === "encode" ||
               action === "decode") && (
-              <div>
                 <pre>{output}</pre>
-              </div>
             )}
+            </div>
           </Container>
         </Grid.Column>
       </Grid>
