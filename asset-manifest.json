@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/shawarma-utils/static/css/main.d2bbce24.chunk.css",
-    "main.js": "/shawarma-utils/static/js/main.dc23cc66.chunk.js",
-    "main.js.map": "/shawarma-utils/static/js/main.dc23cc66.chunk.js.map",
-    "runtime-main.js": "/shawarma-utils/static/js/runtime-main.bb3aee55.js",
-    "runtime-main.js.map": "/shawarma-utils/static/js/runtime-main.bb3aee55.js.map",
-    "static/css/2.7ac538aa.chunk.css": "/shawarma-utils/static/css/2.7ac538aa.chunk.css",
-    "static/js/2.4b9beb0d.chunk.js": "/shawarma-utils/static/js/2.4b9beb0d.chunk.js",
-    "static/js/2.4b9beb0d.chunk.js.map": "/shawarma-utils/static/js/2.4b9beb0d.chunk.js.map",
-    "index.html": "/shawarma-utils/index.html",
-    "precache-manifest.01cad38b75ff8496b45fe391ed750770.js": "/shawarma-utils/precache-manifest.01cad38b75ff8496b45fe391ed750770.js",
-    "service-worker.js": "/shawarma-utils/service-worker.js",
-    "static/css/2.7ac538aa.chunk.css.map": "/shawarma-utils/static/css/2.7ac538aa.chunk.css.map",
-    "static/css/main.d2bbce24.chunk.css.map": "/shawarma-utils/static/css/main.d2bbce24.chunk.css.map",
-    "static/js/2.4b9beb0d.chunk.js.LICENSE": "/shawarma-utils/static/js/2.4b9beb0d.chunk.js.LICENSE",
-    "static/media/semantic.min.css": "/shawarma-utils/static/media/outline-icons.ef60a4f6.woff"
+    "main.css": "./static/css/main.9d3474ce.chunk.css",
+    "main.js": "./static/js/main.760999ad.chunk.js",
+    "main.js.map": "./static/js/main.760999ad.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.02bf25fa.js",
+    "runtime-main.js.map": "./static/js/runtime-main.02bf25fa.js.map",
+    "static/css/2.62cea1d2.chunk.css": "./static/css/2.62cea1d2.chunk.css",
+    "static/js/2.54321041.chunk.js": "./static/js/2.54321041.chunk.js",
+    "static/js/2.54321041.chunk.js.map": "./static/js/2.54321041.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.0df62cdcdf59bdc9c289117e131a8ac1.js": "./precache-manifest.0df62cdcdf59bdc9c289117e131a8ac1.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.62cea1d2.chunk.css.map": "./static/css/2.62cea1d2.chunk.css.map",
+    "static/css/main.9d3474ce.chunk.css.map": "./static/css/main.9d3474ce.chunk.css.map",
+    "static/js/2.54321041.chunk.js.LICENSE": "./static/js/2.54321041.chunk.js.LICENSE",
+    "static/media/semantic.min.css": "./static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.bb3aee55.js",
-    "static/css/2.7ac538aa.chunk.css",
-    "static/js/2.4b9beb0d.chunk.js",
-    "static/css/main.d2bbce24.chunk.css",
-    "static/js/main.dc23cc66.chunk.js"
+    "static/js/runtime-main.02bf25fa.js",
+    "static/css/2.62cea1d2.chunk.css",
+    "static/js/2.54321041.chunk.js",
+    "static/css/main.9d3474ce.chunk.css",
+    "static/js/main.760999ad.chunk.js"
   ]
 }
