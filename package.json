@@ -2,7 +2,7 @@
   "name": "shawarma-utils",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://elegardo.github.io/shawarma-utils",
+  "homepage": "./",
   "description": "Utilities for format json, encode, decode",
   "author": "@elegardo",
   "build": {
@@ -40,7 +40,7 @@
   },
   "scripts": {
     "react-start": "react-scripts start",
-    "react-build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "react-build": "react-scripts build",
     "react-test": "react-scripts test --env=jsdom",
     "react-eject": "react-scripts eject",
     "electron-build": "electron-builder",
