@@ -25,7 +25,7 @@ const theme = {
   base0F: "#cc6633"
 };
 
-const MainContainer = () => {
+const Utils = () => {
 
   const [action, setAction] = useState("");
   const [input, setInput] = useState();
@@ -71,7 +71,7 @@ const MainContainer = () => {
   };
 
   return (
-    <Container>
+    <Container className="main">
 
       <Grid container columns="equal">
         <Grid.Column
@@ -82,6 +82,7 @@ const MainContainer = () => {
           className="mainColumn"
         >
           <TextArea
+            className="textarea-1"
             rows={10}
             placeholder="Input value.."
             spellCheck="false"
@@ -145,7 +146,7 @@ const MainContainer = () => {
           </List>
         </Grid.Column>
 
-        <Grid.Column className="ouputColumn" centered="true" mobile={16} tablet={16} computer={7}>
+        <Grid.Column className="outputColumn" centered="true" mobile={16} tablet={16} computer={7}>
           <Container>
           <div>
             {action === "jsonTree" && (
@@ -159,9 +160,7 @@ const MainContainer = () => {
                 </pre>
             )}
 
-            {(action === "jsonParse" ||
-              action === "encode" ||
-              action === "decode") && (
+            {action !== "jsonTree" && (
                 <pre>{output}</pre>
             )}
             </div>
@@ -172,4 +171,4 @@ const MainContainer = () => {
   );
 };
 
-export default MainContainer;
+export default Utils;
